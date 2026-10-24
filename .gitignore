@@ -1,0 +1,17 @@
+
+# Archivos temporales y del sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependencias instalables mediante Composer
+/vendor/
+
+# Configuraciones privadas y variables de entorno
+.env
+.env.*
+!.env.example
+
+# Copias de seguridad y archivos temporales
+*.bak
+*.tmp
